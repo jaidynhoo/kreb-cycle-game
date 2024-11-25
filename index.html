@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krebs Cycle Interactive Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Krebs Cycle Adventure</h1>
+        <p>Answer questions to navigate through the Krebs Cycle!</p>
+        <div id="stage-info">
+            <h2 id="stage-name"></h2>
+            <p id="question"></p>
+        </div>
+        <input type="text" id="answer" placeholder="Your answer" />
+        <button onclick="checkAnswer()">Submit Answer</button>
+        <p id="feedback"></p>
+        <button id="next-button" onclick="nextStage()" style="display: none;">Next Stage</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
