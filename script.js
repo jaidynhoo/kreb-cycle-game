@@ -132,7 +132,7 @@ const stages = [
     },
     {
         stage: "BONUS",
-        question: "Congrats you've completed your journey through the Krebs CYcle! How many ATP did you generate along the way?",
+        question: "Congrats little acetyl-CoA molecule, you've completed your journey through the Krebs Cycle! How many ATP did you generate along the way?",
         answer: "10 ATP"
     }
 ];
